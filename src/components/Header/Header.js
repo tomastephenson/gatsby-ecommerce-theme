@@ -27,11 +27,11 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Free shipping on all razor subscriptions (yes, even you, rural addresses!)';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'Suggestion 1',
+    'Suggestion 2',
+    'Suggestion 3',
   ];
 
   const handleHover = (navObject) => {
